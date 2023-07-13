@@ -79,10 +79,10 @@
 // document.write(z);
 
 10.
-var x=10;
-var y=10;
-var z=x==y;
-document.write(z);
+// var x=10;
+// var y=10;
+// var z=x==y;
+// document.write(z);
 
 
  
