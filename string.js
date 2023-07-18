@@ -36,8 +36,8 @@
 {
 
     // let a="i love Cats.but cats are very easy to love. Cats are very popular.but Cats Dangerous";
-    // let change=a.replaceAll("cast","dog");
-    // let changee=a.replaceAll("Cast","Dog");
+    // let change=a.replaceAll("cats","dog");
+    // let changee=a.replaceAll("Cats","Dog");
     // document.write(change+changee);
     // document.write(changee);
 }
@@ -95,7 +95,7 @@
 // string padstart
 {
     // let a="10";
-    // let a1=a.padStart(3,"1");
+    // let a1=a.padStart(4,"3");
     // console.log(a1);
 }
 13.

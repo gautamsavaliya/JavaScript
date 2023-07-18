@@ -8,28 +8,28 @@
 // MATH ROUND
 
 {
-    // var num = Math.round(4.4);
+    // var num = Math.round(4.2);
     // console.log(num);
 }
 
 // MATH CEIL
 
 {
-    // var num = Math.ceil(74.3);
+    // var num = Math.ceil(74.32);  // 75
     // console.log(num);
 }
 
 // MATH FLOOR
 
 {
-    // var num = Math.floor(4.9);
+    // var num = Math.floor(4.2);
     // console.log(num);
 }
 
 // MATH TRUNC
 
 {
-    // var num = Math.trunc(4.9);
+    // var num = Math.trunc(5.2);
     // console.log(num);
 }
 
