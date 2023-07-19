@@ -41,11 +41,11 @@
 // To Precision()
 
 {
-    const number=213600;
-    const b=number.toPrecision();
-    const c=number.toPrecision(1);
-    const d=number.toPrecision(2);
-    console.log(b);
-    console.log(c);
-    console.log(d);
+    // const number=213600;
+    // const b=number.toPrecision();
+    // const c=number.toPrecision(1);
+    // const d=number.toPrecision(2);
+    // console.log(b);
+    // console.log(c);
+    // console.log(d);
 }
