@@ -4,9 +4,9 @@
 
 // const abc =new Map(
 //     [
-//         ["a","Jay"],
-//         ["b","Ankit"],
-//         ["c","Darshan"]
+//         ["a","Ramesh"],
+//         ["b","Suresh"],
+//         ["c","Rakesh"]
 //     ]);
 // document.getElementById("demo").innerHTML=abc.get("c");
 
@@ -24,9 +24,9 @@
 
 // const jkl= new Map(
 //     [
-//         ["a","Jay"],
-//         ["b","Ankit"],
-//         ["c","Darshan"]
+//         ["a","Ramesh"],
+//         ["b","Suresh"],
+//         ["c","Rakesh"]
 //     ]
 // );
 
