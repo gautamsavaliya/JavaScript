@@ -63,7 +63,7 @@
     // let a="jemin";
     // let b="korat";
     // let X="VIRAL"
-    // let c=a.concat("",b,X);
+    // let c=a.concat(b,X);
     // let d=c.length;
     // console.log(c);
     // console.log(d);
@@ -154,7 +154,7 @@
 // srting lastindex()
 {
 // let text = "Please locate where 'locate' occurs!";
-// let index = text.lastIndexOf("locate",5);
+// let index = text.lastIndexOf("locate",10);
 // console.log(index);
 }
 
@@ -162,7 +162,7 @@
 //String search()
 {
     // let text = "Please text Please locate where 'locate' occurs!";
-    // let index = text.lastIndexOf("locate");
+    // let index = text.search("locate");
     // console.log(index);     
 }
 
@@ -194,7 +194,7 @@
    //String startsWith()
 {
     
-    // let text = "Please text Please locate where 'locate' occurs!";
+//     let text = "Please text Please locate where 'locate' occurs!";
 //  let index = text.includes("is");
 //  console.log(index);
 }
@@ -203,6 +203,6 @@
 //String endsWith()
 {
 //     let text = "Please text Please locate where 'locate' occurs!";
-//  let index = text.includes("is");
+//  let index = text.includes("!");
 //  console.log(index);    
 }
