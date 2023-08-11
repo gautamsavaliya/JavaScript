@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+
+/* accent-color*/
+
+
+/* 
+    :disabled
+    :enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+ol li::marker{
+    color:red;
+}
+ul li::marker{
+    color:rgb(1, 238, 211);
+}
+
+
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+
+:root{
+    --color-1:red;
+    --color-2:rgb(0, 9, 128);
+}
+
+.root{
+    height: 200px;
+    width: 200px;
+    background-color: var(--color-2);
+}
+
+:lang("en"){
+    background-color: yellow;
+}
+
+
+
+/* css pseudo class */
+
+/*
+
+    :first-child
+    :first-of-type
+    :last-child
+    :last-of-type
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :nth-of-type()
+    :only-of-type
+    :only-child
+    :odd(3n)
+    :even(2n)
+    :not()
+    :where
+    :target
+    :empty
+
+*/    
+
+
+
+/* attributes selector */
+
+/*
+
+    [attr]
+    [attr=value]
+    [attr~=value]
+    [attr|=value]
+    [attr^=value]
+    [attr$=value]
+    [attr*=value]
+
+*/
+
+/* a[target]{
+    background-color: red;
+} */
+
+/* a[value="image-1"]{
+    background-color: red;
+} */
+
+/* a[href~="www.google.com"]{
+    background-color: red;
+} */
+
+/* a[href~="w"]{
+    background-color: red;
+} */
+
+/* a[class|="link"]{
+    background-color: red;
+}
+div[class|="link"]{
+    background-color: red;
+} */
+
+/* a[class^="link"]{
+    background-color: red;
+} */
+
+/* div[class$="box"]{
+    background-color: red;
+} */
+
+/* a[class$="box-1"]{
+    background-color: red;
+} */
+
+/* div[class*="n"]{
+    background-color: red;
+} */
+
+
+/* css pseudo element */
+
+/*
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
+
+/* css after and before */
+
+/* .box{
+    height: 10pc;
+    width:10pc;
+    background-color: red;
+    position: relative;
+}
+
+.box::after{
+    content: "";
+    height: 5pc;
+    width: 5pc;
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+    right:-10px;
+    bottom:-10px;
+} */
+
+
+/* h1::after{
+    content: "html";
+} */
+
+p::selection{
+    font-size: 35px;
+    color:red;
+    background-color: rgb(0, 76, 255);
+}
+
+

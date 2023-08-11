@@ -1,0 +1,118 @@
+/*
+    CSS TRANSFORM PROPERTIES
+    CSS TARNSITION PROPERTIES
+    CSS FILTER PROPERTIES
+*/
+
+/* css 2D transform */
+
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+.translate:hover{
+    /* height: 200px; */
+    /* width: 200px; */
+    transform: translate(600px);
+    /* transform: scaley(0.5); */
+    /* transform: rotate(-180deg); */
+    /* transform: skewY(45deg); */
+    /* transition: 5s 2s linear; */
+    transition-duration: 5s;
+    /* transition-delay: 5s; */
+    /* transition-property: height;  */
+    /* transition-timing-function: ; */
+}
+
+
+
+/* css 3D transform */
+
+/* .cover{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    margin:200px 300px;
+}
+
+.cover:hover .content{
+    transform: perspective(600px) rotate3d(240 ,240
+    , 240 , 241deg);
+    transition: 8s;
+}
+.content{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+} */
+
+
+/* css transition */
+
+.div-5{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    /* transition: 10s 10s width linear;
+    transition-duration: ;
+    transition-delay: ;
+    transition-property: ;
+    transition-timing-function: ; */
+}
+
+/* .div-5:hover{
+    transform: translate(900px);
+    transition-duration: 5s;
+    transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+} */
+
+
+/*******************************************************/
+
+
+/* css filter */
+
+
+img{
+<<<<<<< HEAD
+    /* filter: blur(10px); */
+    /* filter:brightness(500%); */
+    /* filter:contrast(500%) */
+    /* filter:hue-rotate(360deg) */
+    /* filter:grayscale(100%) */
+    /* filter:invert(100%) */
+    /* filter: opacity(0); */
+    /* filter: saturate(300%); */
+    /* filter:sepia(100%) */
+    filter:drop-shadow(20px 20px 10px red)
+}
+
+
+=======
+    /* filter: blur(1px); */
+    /* filter:brightness(50%); */
+    /* filter:contrast(100%); */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(0%); */
+    /* filter: saturate(0%); */
+    /* filter:opacity(1); */
+    /* filter: sepia(1); */
+    /* filter:none; */
+    /* filter:drop-shadow(10px -20px 1px rgb(70, 15, 62))*/
+}
+
+>>>>>>> 69d203f2f4523a0b6ff49f9953dbb98da7f4845a
+
+
+
+
+
+
+
+
+
+
+

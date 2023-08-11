@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Html</title>
+    <style>
+        table ,td , th{
+            border:1px solid green;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Html Table Tag -->
+
+        <table>
+            <caption>this is html tag</caption>
+            <tr>
+                <th>S.N</th>
+                <th>Item</th>
+                <th>Quantity </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td rowspan="2">2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mango</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Orange</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+    <!-- colspan and rowspan in html table -->
+
+
+        <table>
+            <caption>A text table with merged cells</caption>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Read<br> eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Width</th>
+            </tr>
+            <tr>
+                <th>Males</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Females</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </table>
+
+
+
+    <!-- colgroup in html table -->
+
+        <table>
+            <colgroup>
+                
+            </colgroup>
+            <thead>
+                <tr style="background-color: yellow;">
+                    <th>Sr. no.</th>
+                    <th>Roll no</th>
+                    <th>Name</th>
+                    <th>Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: rgb(139, 139, 139);">
+                    <td>1</td>
+                    <td>1001</td>
+                    <td>John</td>
+                    <td>Red</td>
+                </tr style="background-color: yellow;">
+                <tr>
+                    <td>2</td>
+                    <td>1002</td>
+                    <td>Peter</td>
+                    <td>Blue</td>
+                </tr >
+                <tr style="background-color: rgb(52, 52, 52);">
+                    <td>3</td>
+                    <td>1003</td>
+                    <td>Henry</td>
+                    <td>Green</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+</body>
+
+</html>

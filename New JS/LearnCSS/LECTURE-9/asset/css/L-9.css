@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+
+
+/************ css overlay ***********/
+
+<<<<<<< HEAD
+
+/* .image{
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+}
+.image img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.image:hover img{
+  transform: scale(1.5);
+  transition: 1s;
+}
+=======
+/* i{
+  font-size: 50px;
+  color:green;
+  text-decoration: underline;
+} */
+>>>>>>> 69d203f2f4523a0b6ff49f9953dbb98da7f4845a
+
+.layer{
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  background-color: black;
+  opacity: 0.5;
+} */
+
+
+
+/******* css value and units *******/
+
+<<<<<<< HEAD
+/* .unit{
+  height: 10em;
+  width: 10em;
+  background-color: red;
+} */
+
+=======
+/* .image{
+  position: relative;
+  height: 1cm;
+  width: 2cm;
+  overflow: hidden;
+}
+.image:hover .overlay{
+  height: 500px;
+  width: 500px;
+  background-color:rgba(112,112,112,0.4);
+  position: absolute;
+  z-index: 2;
+  top:0;
+} */
+>>>>>>> 69d203f2f4523a0b6ff49f9953dbb98da7f4845a
+   
+/**** css background blend mode  ****/
+
+.blend-mode{
+  height: 100vh;
+  background-image:url("../image/pexels-luis-del-río-15286.jpg") , url("../image/earth.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode:soft-light;
+}
+
+
+

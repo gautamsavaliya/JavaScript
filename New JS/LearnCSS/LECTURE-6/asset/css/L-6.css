@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+
+/* css Position */
+
+
+
+
+
+/* Z-index Propeties */
+
+
+
+
+ /* float properties */
+
+
+
+
+/* css clear properties */
+
+
+
+
+/* overflow properties */
+
+/* .maindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 300px;
+    width: 1200px;
+    margin: auto;
+    background-color:transparent;
+    display: flex;
+    position: relative;
+    border-radius: 50px;   
+     overflow-x:visible;
+     border: 2px solid rgb(107, 107, 107);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    position: relative;
+    border-radius: 50px;
+}
+
+.text h2 , p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text .img-1{
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    z-index: -1;
+}
+.text .img-2{
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+} */
+
+/* css cursor properties */
+
+.alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+
+
+/* css object-fit properties */
+
+/*  fill / contain / cover / scale-down / none */
+
+
+
+.box{
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.box img{
+    width: 600px;
+    height: 600px;
+    object-fit:cover;
+}
+
+
+
+

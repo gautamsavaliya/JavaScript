@@ -1,0 +1,85 @@
+/*  
+    CSS FONT PROPERTIES
+	CSS TEXT PROPERTIES
+	CSS VERTICLE ALIGN
+    CSS WHITE SPACE
+    CSS VISIBILITY
+*/
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+/* css font properties */
+
+/* 
+
+1.font-family / Google font
+2.font-size
+3.font-style
+4.font-variant
+5.font-weight
+6.line-height 
+
+*/
+
+
+
+/*css text-properties */
+
+/*
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Text-direction
+8.Text-shadow
+9.Word spacing
+10.Letter-spacing
+*/
+
+
+p{
+    color:red;
+    text-shadow: 5px 5px 3px green;
+}
+
+
+/* css verticle alignment */
+
+
+p{
+    text-decoration:1px underline;
+    /* text-decoration: 1px line-through; */
+    /* text-decoration: 1px overline;    */
+}
+
+
+/* css white space */
+
+
+.whitespace{
+    white-space: pre;
+    white-space: nowrap;
+    white-space: normal;
+}
+
+
+/* css visibility */
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    visibility: visible;
+}
+
+
+

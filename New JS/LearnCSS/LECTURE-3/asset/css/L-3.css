@@ -1,0 +1,124 @@
+/* 
+    PADDING 
+    MARGIN
+    CSS BOX SIZING MODEL
+    WIDTH
+    HEIGHT
+    MAX-WIDTH
+    MAX-HEIGHT
+    MIN-WIDTH
+    MIN-HEIGHT
+    LISTING STYLE
+    CSS BOX SHADOW 
+*/
+
+/* *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+} */
+
+/* CSS BOX MODEL */
+
+/* .box-model{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    border:5px solid orange;
+    margin:50px 100px 150px 200px;
+    padding: 20px 50px 70px 100px;
+} */
+
+/* CSS MARGIN */
+
+
+
+
+/* box-sizing properties */
+
+/* .content-box{
+    width: 400px;
+    height: 400px;
+    border:10px solid blue;
+    padding: 50px;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    background-color: brown;
+    background-clip: content-box;
+}
+
+.border-box{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    border:10px solid blue;
+    padding: 50px;
+    box-sizing: border-box;
+    background-clip: content-box;
+} */
+
+
+
+
+/* css width / height */
+
+
+/* .width{
+    min-width:400px;
+    height: 500px;
+    background-color: green;
+    border:5px solid red;
+    max-width: 600px;
+} */
+
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+ol {
+    /* list-style-type: armenian; */
+    /* list-style-type: decimal; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: georgian; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: lower-greek;     */
+    /* list-style-type: lower-latin; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: none; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: upper-latin;    */
+    /* list-style-type: upper-roman; */
+    /* list-style-image: url("../image/cartoon.png"); */
+    /* list-style-position: outside; */
+}
+
+/* unorder list */
+
+ul{
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+}
+
+/* css box-shadow */
+
+.shadow{
+    height:500px ;
+    width:500px;
+    background-color: orange;
+    box-shadow: 0px 0px 10px green;
+    border-radius: 100%;
+    margin: 100px;
+}

@@ -1,0 +1,33 @@
+/* Css apply External Method */
+
+.external{
+    color:red;
+    background-color: yellow;
+}
+
+
+/***************************************/
+
+        /* css comment */
+
+/***************************************/
+
+
+/* CASCADE SPECIFICITY AND INHERITANCE */
+
+
+/* cascade */
+
+
+/* sepecificity */
+
+
+/* inheritance */
+
+
+/* !important rule */
+
+.important{
+    height: 100px;
+    background-color:red !important;
+}

@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: black;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+}
+
+/********** css calc() ***********/
+
+.mainheader{
+  width: calc(100% - 10%);
+  /* max-width: 1200px; */
+  height: 100px;
+  background-color: rgb(107, 107, 226);
+  border:2px solid rgb(1, 89, 11)
+} 
+
+h1{
+  /* font-size: calc(5vh + 10px); */
+  font-size: 100%;
+}
+
+
+/****** Css Media Queries ********/
+
+.banner {
+    border: solid black 1px;
+    box-shadow: 1px 2px 5px red;
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .mainbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+
+  .box-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    border:5px solid rgb(19, 236, 3);
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+  }
+  .box-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    border:5px solid rgb(19, 236, 3);
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+  }
+  .box-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+    border:5px solid rgb(19, 236, 3);
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+  }
+  .box-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: violet;
+    border:5px solid rgb(19, 236, 3);
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+  }
+  .box-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: thistle;
+    border:5px solid rgb(19, 236, 3);
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+  }
+  .box-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border:5px solid rgb(19, 236, 3);
+    width: 200px;
+    height: 400px;
+    margin-bottom: 100px;
+  }
+
+
+  
+
+
+
+
+
+ 
