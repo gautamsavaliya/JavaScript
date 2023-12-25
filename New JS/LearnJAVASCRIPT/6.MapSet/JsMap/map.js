@@ -16,7 +16,7 @@ size	Returns the number of elements in a Map
 /* Methods */
 
 {
-    /* You can create a Map by passing an Array to the new Map() constructor */
+    /* You can create a Map by passing an Array to the new Map() constructor */                
 
     // const Data = new Map([
     //     ["option-1" , 20],

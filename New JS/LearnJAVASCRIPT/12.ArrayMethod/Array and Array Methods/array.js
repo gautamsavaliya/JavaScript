@@ -252,17 +252,17 @@ Array indexes start with 0:
 
 /* Use pop() or shift() instead. */
 
-{
-     // const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// {
+//      const fruits = ["Banana", "Orange", "Apple", "Mango"];
  
-     // document.getElementById("demo").innerHTML =fruits;
+//      document.getElementById("demo").innerHTML =fruits;
  
-     // delete fruits[2];
+//      delete fruits[2];
  
-     // fruits[2] = "kiwi";
+//      fruits[2] = "kiwi";
  
-     // document.getElementById("demo-1").innerHTML =fruits;
- }
+//      document.getElementById("demo-1").innerHTML =fruits;
+//  }
  
  /* Merging (Concatenating) Arrays */
  
